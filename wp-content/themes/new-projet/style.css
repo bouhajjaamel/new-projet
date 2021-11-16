@@ -6,11 +6,25 @@ Author URI: https://www.tutowp.fr/tutowp
 Description: Thème WordPress basé sur Bootstrap
 Version: 1.0
 */
+h5{color:rgb(0, 0, 0);
+  margin: 12px;;}
+hr{border-style: double solid;}
+.bd-highlight .btn-outline-warning {
+  color: #fff;
+  border-color: #0c0c0c;
+  margin: 12px;
+  background-color: rgb(31, 30, 29);
+}
+.container{padding-top: 20px;}
 .blog-header {
     line-height: 1;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #ffffffef;
+    
   }
-  
+ 
+  .bg-light {
+    background-color: #533b5d!important;
+}
   .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.25rem;
@@ -51,6 +65,7 @@ Version: 1.0
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    background-color: #92822596;
   }
   
   .nav-scroller .nav-link {
@@ -115,17 +130,44 @@ Version: 1.0
     margin-bottom: 1.25rem;
     color: #999;
   }
-  
+ 
   /*
    * Footer
    */
+   .page-footer{background-color:#2b2a27;}
   .blog-footer {
+    
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #f0deac;
     border-top: .05rem solid #e5e5e5;
   }
   .blog-footer p:last-child {
     margin-bottom: 0;
   }
+
+  
+  /*connexion*/
+  .styled {border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);}
+ .styled:hover  {
+  background-color: rgba(255, 0, 0, 1);
+}
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

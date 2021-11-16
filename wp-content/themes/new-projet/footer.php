@@ -1,28 +1,35 @@
 <!-- Footer -->
-<footer class="page-footer font-small unique-color-dark">
+<img src="<?php echo get_bloginfo('template_directory') ?>/imag/ruban.gif" alt="" width="100%" height="200px">
 
-<div style="background-color:#92822596;">
+<footer class="page-footer font-small unique-color-dark" style="background-color:background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,237,178,0.5494572829131652) 12%, rgba(217,215,133,1) 35%, rgba(154,132,57,1) 66%, rgba(144,96,6,1) 85%);">
+
+
     <div class="container">
-
+    
       <!-- Grid row-->
-      <div class="row py-4 d-flex align-items-center">
+      <div class="row ">
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-5 text-right text-md-right mb-4 mb-md-0">
-        <ul class="list-unstyled list-inline text-center py-2">
-    <li class="list-inline-item">
-      <h5 class="mb-1">Inscription gratuite</h5>
-    </li>
-    <li class="list-inline-item">
+        
+        <div class="col-md-6 col-lg-6 text-left ">
+        <div class="d-md-flex bd-highlight">
+          <h5> inscrire gratuite</h5>
+          <div class="col-md-6 col-lg-6 text-right text-md-right">
+         <a href="connexion.php">  <button type="button" class="btn btn-outline-warning my-2 my-sm-0"> S'INSCRIRE</button>
+
+</div></div>
+    <!--<li class="list-inline-item">
       <a href="#!" class="btn btn-danger btn-rounded">S'INSCRIRE</a>
-    </li>
-  </ul>
-        </div>
+    </li>-->
+  
+  </div> 
+      
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-7 text-center text-md-left">
-
+        <div class="col-md-6 col-lg-6 text-md-left">
+        
           <!-- Facebook -->
           <a class="fb-ic">
             <i class="fab fa-facebook-f white-text mr-4"> </i>
@@ -53,7 +60,7 @@
     </div>
   </div>
 
-
+<hr>
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left mt-5">
@@ -67,9 +74,7 @@
         <!-- Content -->
         <a href="http://localhost/new-projet/"><img src="<?php echo get_bloginfo('template_directory') ?>/imag/logo.jpeg" alt="" width="120px" height="90px"></a>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <p>Marque de style déco intérnational, s’efforce depuis 1989 de porter un autre angle de vue sur les tendances du design et de la décoration modérne.</p>
 
       </div>
       <!-- Grid column -->
@@ -81,16 +86,17 @@
         <h6 class="text-uppercase font-weight-bold">Products</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a class="dark-grey-text" href="#!">MDBootstrap</a>
+          <a class="dark-grey-text" href="http://localhost/new-projet/">Home</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="#!">MDWordPress</a>
+          <a class="dark-grey-text" href="http://localhost/new-projet/decoration-interieure/">Décoration Intérieure</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="#!">BrandFlow</a>
+          <a class="dark-grey-text" href="http://localhost/new-projet/limunaire/">Limunaire</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="#!">Bootstrap Angular</a>
+          <a class="dark-grey-text" href="http://localhost/new-projet/jardin/">Jardin</a>
+
         </p>
 
       </div>
@@ -100,20 +106,19 @@
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <h6 class="text-uppercase font-weight-bold">Services</h6>
+
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a class="dark-grey-text" href="#!">Your Account</a>
+          <a class="dark-grey-text" href="#!">Livraison & Retour</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="#!">Become an Affiliate</a>
+          <a class="dark-grey-text" href="#!">Paiement sécurisé</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="#!">Shipping Rates</a>
+          <a class="dark-grey-text" href="#!">Conditions générales de vente</a>
         </p>
-        <p>
-          <a class="dark-grey-text" href="#!">Help</a>
-        </p>
+        
 
       </div>
       <!-- Grid column -->
@@ -143,7 +148,7 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+  <div class="footer-copyright text-center text-black-50 py-3">© 2021 Copyright:
     <a class="dark-grey-text" href="https://mdbootstrap.com/"> Simplon.com</a>
   </div>
   <!-- Copyright -->
